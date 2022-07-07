@@ -116,6 +116,10 @@ Set an attribute which will tell the API to use the given string as the medium U
 
 Set a filter to determine who should be notified when booking an appointment.
 
+- `recaptcha(recaptchaToken: string)`
+
+Set an attribute which will tell the API to use the given recaptchaToken to validate the user request via reCaptcha check.
+
 - `reschedule(appointment: number, code: string)`
 
 Reschedule an appointment matching the given appointment identifier using the pre-set start parameter.
